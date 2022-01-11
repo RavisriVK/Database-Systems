@@ -16,8 +16,8 @@ The sample queries I wrote include:
 * For each location, find out how many users older than 60 years have viewed vidoes created in that location
 
 In order to test the queries, follow these steps on the terminal (macOS) after installing mysql:
-* sudo /usr/local/mysql/support-files/mysql.server start
-* mysql youtube_platform -p'[password]' -u root < Implementation_and_Queries.sql
-* sudo /usr/local/mysql/support-files/mysql.server stop
+* `sudo /usr/local/mysql/support-files/mysql.server start`
+* `mysql youtube_platform -p'[password]' -u root < Implementation_and_Queries.sql`
+* `sudo /usr/local/mysql/support-files/mysql.server stop`
 
 After the second step, you should see the results of the query/queries you have chosen to include.
